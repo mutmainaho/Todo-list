@@ -20,7 +20,7 @@ addForm.addEventListener( 'submit', e => {
 
 
    
-    if(todos.length){ 
+    if(todo.length){ 
     addTemplate(todo);  
     addForm.reset();
     }
