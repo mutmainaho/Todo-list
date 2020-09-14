@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+body{
+  background-color:#352f5b;
+}
+.container{
+    max-width: 400px;
+}
+.todo li{
+  background-color: whitesmoke;
+}
+.delete{
+  cursor: pointer;
+}
+input[type=text],
+input[type=text]:focus{
+  color: antiquewhite;
+  border: none;
+  background-color: #3333;
+  max-width: 400px;
+}
+.filtered{
+  display: none;
+}
