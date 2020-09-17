@@ -2,13 +2,13 @@
     box-sizing: border-box;
 }
 body{
-  background-color: cyan;
+  background-color:#352f5b;
 }
 .container{
     max-width: 400px;
 }
 .todo li{
-  background-color: #3333;
+  background-color: whitesmoke;
 }
 .delete{
   cursor: pointer;
@@ -19,4 +19,7 @@ input[type=text]:focus{
   border: none;
   background-color: #3333;
   max-width: 400px;
+}
+.filtered{
+  display: none;
 }
