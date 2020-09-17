@@ -57,8 +57,8 @@ search.addEventListener( 'keyup', () =>{
           
     });
 
-var filterTodo = JSON.parse(JSON.stringify(todo_list))
 getTodo()
+var filterTodo = JSON.parse(JSON.stringify(todo_list))
 addTemplate(todo_list)
     
     
